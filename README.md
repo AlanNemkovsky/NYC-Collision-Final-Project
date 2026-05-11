@@ -40,7 +40,6 @@ paper/main.tex                     Final NeurIPS-style LaTeX paper
 paper/main.pdf                     Final compiled paper
 paper/neurips_2026.sty             NeurIPS 2026-compatible style file for this course project
 presentation/nyc_collision_final_presentation.pptx
-presentation/speaker_notes.md      Recording guide
 ```
 
 ## Raw data setup
@@ -54,6 +53,14 @@ C:\Users\alann\Downloads\Motor_Vehicle_Collisions_-_Person.csv
 ```
 
 These are the only raw data files required.
+
+## Raw data download links
+
+Download these three public NYC Open Data files before running the project:
+
+- Motor Vehicle Collisions - Crashes: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
+- Motor Vehicle Collisions - Vehicles: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Vehicles/bm4k-52h4
+- Motor Vehicle Collisions - Person: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Person/f55k-p6yu
 
 ## Setup on Windows
 
