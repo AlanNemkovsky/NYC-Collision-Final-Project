@@ -1,0 +1,11 @@
+Modeling summary
+================
+Temporal split: train years before 2025; test year 2025.
+Training rows after optional sampling: 402,367
+Test rows after optional sampling: 85,543
+Positive rate in training set: 0.3948
+Positive rate in test set: 0.4374
+Best model by PR-AUC: xgboost_optional
+
+Model metrics table saved to outputs/tables/model_metrics.csv.
+Ablation metrics table saved to outputs/tables/ablation_metrics.csv.

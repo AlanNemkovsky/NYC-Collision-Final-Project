@@ -1,0 +1,23 @@
+Raw data audit
+==============
+
+Table: crashes
+Path: C:\Users\alann\Downloads\Motor_Vehicle_Collisions_-_Crashes.csv
+Rows: 2,257,882
+Columns: 29
+Collision ID column detected: COLLISION_ID
+Collision ID unique count sample/full: 2,000,000
+
+Table: vehicles
+Path: C:\Users\alann\Downloads\Motor_Vehicle_Collisions_-_Vehicles.csv
+Rows: 4,528,736
+Columns: 25
+Collision ID column detected: COLLISION_ID
+Collision ID unique count sample/full: 2,000,000
+
+Table: persons
+Path: C:\Users\alann\Downloads\Motor_Vehicle_Collisions_-_Person.csv
+Rows: 5,945,665
+Columns: 21
+Collision ID column detected: COLLISION_ID
+Collision ID unique count sample/full: 1,627,701

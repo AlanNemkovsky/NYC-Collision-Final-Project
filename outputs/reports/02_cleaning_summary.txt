@@ -1,0 +1,9 @@
+Cleaning summary
+================
+Clean crashes rows: 2,257,882
+Vehicle aggregate rows: 2,255,925
+Person aggregate rows: 1,627,701
+
+Leakage control note:
+Direct person-level injury descriptors such as PERSON_INJURY, BODILY_INJURY, COMPLAINT, EJECTION, and EMOTIONAL_STATUS are not used as prediction features.
+Crash-table injury/fatality counts are used only to construct the target and are excluded from model features.

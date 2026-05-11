@@ -1,0 +1,17 @@
+Leakage exclusion report
+========================
+
+- crash_time: direct target/leakage or raw high-cardinality text
+- cross_street_name: direct target/leakage or raw high-cardinality text
+- location: direct target/leakage or raw high-cardinality text
+- number_of_cyclist_injured: direct target/leakage or raw high-cardinality text
+- number_of_cyclist_killed: direct target/leakage or raw high-cardinality text
+- number_of_motorist_injured: direct target/leakage or raw high-cardinality text
+- number_of_motorist_killed: direct target/leakage or raw high-cardinality text
+- number_of_pedestrians_injured: direct target/leakage or raw high-cardinality text
+- number_of_pedestrians_killed: direct target/leakage or raw high-cardinality text
+- number_of_persons_injured: direct target/leakage or raw high-cardinality text
+- number_of_persons_killed: direct target/leakage or raw high-cardinality text
+- off_street_name: direct target/leakage or raw high-cardinality text
+- on_street_name: direct target/leakage or raw high-cardinality text
+- total_injury_fatality_count: direct target/leakage or raw high-cardinality text

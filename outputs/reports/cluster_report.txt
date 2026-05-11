@@ -1,0 +1,8 @@
+Clustering report
+=================
+Grouping variable: zip_code_group
+Groups clustered: 61
+Selected k by silhouette score: 2
+Explained variance by PCA components: 0.3325, 0.2055
+
+Cluster profiles are saved to outputs/tables/cluster_profiles.csv.

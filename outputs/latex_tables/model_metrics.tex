@@ -1,0 +1,11 @@
+\begin{tabular}{llrrrrrrrrrrr}
+\toprule
+model & feature_set & train_rows & test_rows & threshold & accuracy & balanced_accuracy & precision & recall & f1 & positive_rate_predicted & roc_auc & pr_auc \\
+\midrule
+xgboost_optional & full & 402367 & 85543 & 0.367154 & 0.801655 & 0.805784 & 0.741623 & 0.838763 & 0.787208 & 0.494699 & 0.893393 & 0.860398 \\
+random_forest & full & 402367 & 85543 & 0.492158 & 0.797950 & 0.800995 & 0.741815 & 0.825320 & 0.781343 & 0.486644 & 0.887004 & 0.852869 \\
+logistic_l2_balanced & full & 402367 & 85543 & 0.460502 & 0.797178 & 0.799685 & 0.743089 & 0.819708 & 0.779520 & 0.482506 & 0.884773 & 0.846324 \\
+extra_trees & full & 402367 & 85543 & 0.506952 & 0.790456 & 0.792578 & 0.737198 & 0.809525 & 0.771671 & 0.480320 & 0.878999 & 0.841166 \\
+dummy_most_frequent & full & 402367 & 85543 & 0.000000 & 0.437406 & 0.500000 & 0.437406 & 1.000000 & 0.608604 & 1.000000 & 0.500000 & 0.437406 \\
+\bottomrule
+\end{tabular}
