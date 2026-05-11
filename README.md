@@ -107,10 +107,3 @@ presentation/nyc_collision_final_presentation.pptx
 ```
 
 The final PDF has been recompiled from `paper/main.tex`. The abstract contains the final public GitHub repository link and the Google Drive video recording link. A root-level copy is also included as `final_paper_nyc_collision.pdf`.
-
-## Important GitHub notes
-
-- Do not upload the raw large CSV files to GitHub.
-- Do not upload course lecture slides or example papers to GitHub.
-- It is okay to upload the code, README, requirements, paper folder, presentation, and generated result summaries/figures.
-- The outputs folder excludes large model binaries to keep the repository lightweight.
