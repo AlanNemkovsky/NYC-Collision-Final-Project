@@ -1,0 +1,33 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{neurips_2026}[2026/01/01 NeurIPS 2026 compatibility style for course project]
+\newif\if@neuripsfinal\@neuripsfinalfalse
+\DeclareOption{final}{\@neuripsfinaltrue}
+\DeclareOption{preprint}{\@neuripsfinaltrue}
+\DeclareOption{nonatbib}{}
+\ProcessOptions\relax
+\RequirePackage[letterpaper,left=1.5in,right=1.5in,top=1in,bottom=1in]{geometry}
+\RequirePackage{times}
+\RequirePackage{natbib}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt}
+\renewcommand{\baselinestretch}{1.0}
+\pagestyle{plain}
+\titleformat{\section}{\bfseries\large}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{1em}{}
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{center}%
+  \rule{\linewidth}{4pt}\par\vspace{0.22in}%
+  {\bfseries\fontsize{17}{20}\selectfont \@title\par}%
+  \vspace{0.22in}\rule{\linewidth}{1pt}\par\vspace{0.18in}%
+  {\bfseries \@author\par}%
+  \end{center}%
+}
+\renewenvironment{abstract}{%
+  \vspace{0.15in}\begin{center}{\bfseries\fontsize{12}{14}\selectfont Abstract}\end{center}%
+  \begin{quote}\small%
+}{\end{quote}}
+\makeatother
